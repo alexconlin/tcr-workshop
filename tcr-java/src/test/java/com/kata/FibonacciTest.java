@@ -22,4 +22,9 @@ public class FibonacciTest {
     public void given3shouldreturn2() {
         assertThat(Fibonacci.fib(3), is(2));
     }
+
+    public void given4shouldreturn3() {
+        assertThat(Fibonacci.fib(4), is(3));
+    }
+
 }
