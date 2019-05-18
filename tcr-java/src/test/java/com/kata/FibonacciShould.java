@@ -18,4 +18,8 @@ public class FibonacciShould {
     public void assertInput2() {
         assertThat(Fibonacci.fib(2), is(1));
     }
+
+    public void assertInput3() {
+        assertThat(Fibonacci.fib(3), is(2));
+    }
 }

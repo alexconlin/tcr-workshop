@@ -3,10 +3,10 @@ package com.kata;
 public class Fibonacci {
 
     public static int fib(int input) {
-        if (input == 2) {
-            return 1;
+        if (input < 2) {
+            return input;
         }
-        return input + 0;
+        return input-1;
     }
 
 }
