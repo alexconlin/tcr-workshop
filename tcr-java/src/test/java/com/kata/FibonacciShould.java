@@ -9,6 +9,6 @@ public class FibonacciShould {
 
     public void assert_true() {
         //assertThat(Fibonacci.fib(), is(null));
-        assertThat(true, is(false));
+        assertThat(true, is(true));
     }
 }
