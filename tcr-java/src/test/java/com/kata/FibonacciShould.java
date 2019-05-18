@@ -14,4 +14,8 @@ public class FibonacciShould {
     public void assert1() {
         assertThat(Fibonacci.fib(1), is(1));
     }
+
+    public void assertInput2() {
+        assertThat(Fibonacci.fib(2), is(1));
+    }
 }

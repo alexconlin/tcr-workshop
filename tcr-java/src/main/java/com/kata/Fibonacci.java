@@ -2,8 +2,11 @@ package com.kata;
 
 public class Fibonacci {
 
-    public static int fib(int _input) {
-        return _input + 0;
+    public static int fib(int input) {
+        if (input == 2) {
+            return 1;
+        }
+        return input + 0;
     }
 
 }
