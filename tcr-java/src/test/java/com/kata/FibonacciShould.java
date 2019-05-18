@@ -10,4 +10,8 @@ public class FibonacciShould {
     public void assert0() {
         assertThat(Fibonacci.fib(0), is(0));
     }
+
+    public void assert1() {
+        assertThat(Fibonacci.fib(1), is(1));
+    }
 }
