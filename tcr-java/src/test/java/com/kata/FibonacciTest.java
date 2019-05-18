@@ -31,4 +31,8 @@ public class FibonacciTest {
         assertThat(Fibonacci.fib(5), is(5));
     }
 
+    public void given15ShouldReturn610() {
+        assertThat(Fibonacci.fib(15), is(610));
+    }
+
 }
