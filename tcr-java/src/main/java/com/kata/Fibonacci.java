@@ -5,10 +5,10 @@ public class Fibonacci {
     public static int fib(int input) {
 
 
-        if (input < 2 || input == 5) {
+        if (input < 2) {
             return input;
         }
-        return input-1;
+        return fib(input-1) + fib(input-2);
     }
 
 }
